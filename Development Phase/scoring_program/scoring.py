@@ -37,7 +37,7 @@ def main(config):
 
     # CSV文件路径
     gt_landmarks_path = os.path.join(config.input_dir_path, 'ref', 'labels.csv')
-    pred_landmarks_path = os.path.join(config.input_dir_path, 'res', 'predicts.csv')
+    pred_landmarks_path = os.path.join(config.input_dir_path, 'res', 'predictions.csv')
 
     gt_df = pd.read_csv(gt_landmarks_path)
     pred_df = pd.read_csv(pred_landmarks_path)
